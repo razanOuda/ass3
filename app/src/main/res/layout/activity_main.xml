@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<ImageView
+    android:id="@+id/profile_image"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="8dp" />
+
+<EditText
+    android:id="@+id/edit_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="الاسم"
+    android:inputType="textPersonName"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp" />
+
+<EditText
+    android:id="@+id/edit_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="رقم الجوال"
+    android:inputType="phone"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp" />
+
+<Button
+    android:id="@+id/btn_save"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="حفظ"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp" />
+
+</LinearLayout>
